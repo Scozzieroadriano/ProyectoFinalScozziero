@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 function App() {
 
   return (
-  <div className="vh-100 d-flex flex-column">
+  <div> 
     <Navbar/>
 
     <Routes>
