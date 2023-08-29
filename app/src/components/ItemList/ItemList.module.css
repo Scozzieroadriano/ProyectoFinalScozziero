@@ -1,0 +1,11 @@
+.cardProduct{
+    max-width: 200px;
+}
+.contenedorPrincipal{
+    background-color: rgba(0,0,0,.1);
+}
+.decorationNone{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}

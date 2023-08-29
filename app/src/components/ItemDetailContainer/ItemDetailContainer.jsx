@@ -1,4 +1,4 @@
-import { getProduct } from "../services";
+import { getProduct } from "../../services";
 import ItemDetail from "../ItemDetailContainer/ItemDetail";
 import { useState,useEffect } from "react";
 import { useParams } from "react-router-dom";

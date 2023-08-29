@@ -1,31 +1,30 @@
 import { Link, NavLink } from 'react-router-dom';
-
+import CartWidget from './CartWidget';
+import styles from "./NavBar.module.css";
 const Navbar = () => {
     return (
-        <div>
-            <nav>
-                <h1>
-                    <Link to="/">Tiendita</Link>
+        <nav className={` ${styles.navbar} navbar navbar-expand-lg navbar-dark p-3`}>
+            <div className="container-fluid">
+                <h1 className="navbar-brand">
+                    <Link className="nav-link" to="/">Tiendita</Link>
                 </h1>
 
-                <ul>
-                    <li>
-                        <NavLink to="/category/telefonos">Teléfonos</NavLink>
+                <ul className="navbar-nav me-middle">
+                    <li className="nav-item me-2">
+                        <NavLink className={`nav-link ${styles.navlink}`} to="/category/teclados">Teclados</NavLink>
                     </li>
-                    <li>
-                        <NavLink to="/category/tablets">Tablets</NavLink>
+                    <li className="nav-item me-2">
+                        <NavLink className={`nav-link ${styles.navlink}`} to="/category/pcs">PCS Armadas</NavLink>
                     </li>
-                    <li>
-                        <NavLink to="/category/notebooks">Notebooks</NavLink>
+                    <li className="nav-item me-2">
+                        <NavLink  className={`nav-link ${styles.navlink}`} to="/category/monitores">Monitores</NavLink>
                     </li>
                     
                 </ul>
 
-                <div>
-                    CartWidget
-                </div>
-            </nav>
-        </div>
+                <CartWidget/>
+            </div>
+        </nav>
     )
 }
 export default Navbar;

@@ -6,7 +6,7 @@ import Navbar from './components/Navbar/Navbar'
 function App() {
 
   return (
-  <div>
+  <div className="vh-100 d-flex flex-column">
     <Navbar/>
 
     <Routes>
@@ -14,7 +14,6 @@ function App() {
         <Route path="/category/:categoryId" element={<ItemListContainer/>} />
         <Route path="/item/:id" element={<ItemDetailContainer/>} />
     </Routes>
-
   </div>
     )
 }

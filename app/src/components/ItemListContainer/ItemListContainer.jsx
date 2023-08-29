@@ -1,7 +1,7 @@
-import ItemList from "./ItemList";
+import ItemList from "../ItemList/ItemList";
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom";
-import { getProducts } from "../services";
+import { getProducts } from "../../services";
 
 const ItemListContainer = () => {
     const [items, setItems] = useState([])
