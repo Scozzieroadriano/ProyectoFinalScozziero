@@ -27,7 +27,7 @@ export const getProduct = (id) => {
             } else {
                 reject('No existe el producto')
             }
-        }, 900);
+        }, 1200);
     })
 }
 //getProducts
@@ -43,6 +43,6 @@ export const getProducts = (category) => {
                 : products
             resolve(productsFiltered);
 
-        }, 900)
+        }, 1200)
     })
 }

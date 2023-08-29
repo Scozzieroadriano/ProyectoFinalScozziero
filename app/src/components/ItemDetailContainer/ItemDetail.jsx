@@ -1,7 +1,8 @@
 import { PropTypes} from "prop-types";
+import LoadingCircle from "../LoadingCircle/LoadingCircle";
 const ItemDetail = ({item}) => {
     if (!item) {
-        return <h2>Producto no encontrado</h2>;
+        return <LoadingCircle/>;
     }
     return (
         <div>
