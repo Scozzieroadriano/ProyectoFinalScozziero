@@ -1,0 +1,11 @@
+.customImageList {
+    width: 60px;
+    height: 60px;
+  }
+.contenedorPrincipal{
+    background-color: rgba(0,0,0,.1);
+}
+.listGroup {
+    height: 150px; /* Establece una altura fija para todos los elementos */
+  }
+  

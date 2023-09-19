@@ -18,11 +18,11 @@ const Navbar = () => {
                     </li>
                     <li className="nav-item me-2">
                         <NavLink  className={`nav-link ${styles.navlink}`} to="/category/monitores">Monitores</NavLink>
-                    </li>
-                    
+                    </li>                    
                 </ul>
-
-                <CartWidget/>
+                <NavLink to="/cart" className={`nav-link ${styles.navlink}`}>
+                 <CartWidget />
+                </NavLink>
             </div>
         </nav>
     )

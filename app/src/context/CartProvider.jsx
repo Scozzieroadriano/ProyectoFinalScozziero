@@ -5,7 +5,7 @@ const CartProvider = ({ children }) => {
     const [cart, setCart] = useState([]);
 
     const isInCart = (id) => {
-        const itemInCart = cart.find(item => item.id === id);
+        const itemInCart = cart.find(item => item.id == id);
         return !!itemInCart;
     }
 
