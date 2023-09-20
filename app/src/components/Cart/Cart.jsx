@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Cart = () => {
     const { cart, addItem, removeItem } = useContext(CartContext);
     const [quantityToAdd, setQuantityToAdd] = useState(1);
-
+    
     return (
         <div className={`container ${styles.contenedorPrincipal} mt-5`}>
                         {cart.length === 0 ? (

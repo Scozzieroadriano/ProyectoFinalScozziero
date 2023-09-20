@@ -1,0 +1,81 @@
+/* Estilo para el contenedor principal */
+.checkoutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.checkoutList {
+    flex-grow: 1; 
+    overflow-y: auto;
+}
+
+.checkoutForm {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(40, 153, 125);
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Estilo para el título del formulario */
+.checkoutForm h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los campos de entrada */
+.checkoutForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Borde redondeado */
+}
+
+
+/* Estilo para el botón de envío cuando se pasa el cursor */
+.checkoutForm button:hover {
+    background-color: #0056b3; /* Cambia de color al pasar el cursor */
+}
+/* Estilo para el mensaje del ID de la orden */
+.ordeMessage {
+    font-size: 18px; /* Tamaño de fuente */
+    background-color: #007bff; /* Color de fondo azul */
+    color: #fff; /* Color del texto blanco */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    text-align: center; /* Texto centrado */
+    margin-top: 20px; /* Margen superior */
+}
+/* Estilo para el mensaje de compra exitosa */
+.successMessage {
+    font-size: 24px;
+    color: #007bff; /* Color azul (puedes cambiarlo según tu preferencia) */
+    text-align: center;
+    margin-bottom: 10px; /* Margen inferior para separarlo de otros elementos */
+}
+
+/* Estilo para el mensaje del ID de la orden (ya definido) */
+.orderMessage {
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para el mensaje de agradecimiento */
+.thankYouMessage {
+    font-size: 20px;
+    color: #333; /* Color de texto predeterminado (puedes cambiarlo) */
+    text-align: center;
+}
+

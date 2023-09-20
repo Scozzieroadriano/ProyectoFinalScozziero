@@ -29,5 +29,5 @@ export const handleAddToCart = (item, quantityToAdd, addItem) => {
     }
 };
 export const acumulateQuantity = (quantity) => {
-    return quantity++
+    return quantity + 1
 }
