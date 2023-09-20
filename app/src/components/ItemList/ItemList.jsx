@@ -9,14 +9,17 @@ const ItemList = ({ items, isLoading }) => {
     }
     return (
         <div className={`container ${styles.contenedorPrincipal} vh-100`}>
-            
-            <h1 className="text-center">Lista de productos</h1>            
-            
+
+            <h1 className="text-center">Lista de productos</h1>
+
             <ul className='container row mt-3 justify-content-start p-3'>
                 {items.map((item) => (
                     <li key={item.id} className={`col-5 col-lg-3 card text-center shadow-lg ${styles.cardProduct} mx-4 mb-3 p-3 d-flex flex-column`}>
                         <Link to={`/item/${item.id}`}>
-                            <img className="card-img-top" src={`${item.imageId}`} alt="..." />
+                        <span className={`position-absolute top-0 end-0 ${item.stock > 0 ? 'text-success' : 'text-danger'} me-2 p-1`}>
+                                {item.stock > 0 ? `Disponible` : 'No Disponible'}
+                            </span>
+                            <img className="card-img-top mt-2" src={`${item.imageId}`} alt="..." />
                             <h5 className={`card-title ${styles.decorationNone}`}>{item.title}</h5>
                             <div className="mt-auto align-self-end -mt-3">
                                 <span className="text-muted fs-4">Precio: </span>
