@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Field from '../Field/Field';
+import swal from "sweetalert"; 
 
 const OrderForm = ({ handleCheckout }) => {
     const [formData, setFormData] = useState({
@@ -24,6 +25,9 @@ const OrderForm = ({ handleCheckout }) => {
 
         if (isFormValid) {
             handleCheckout({ name, phone, email });
+        } else{
+            swal("Complete el formulario para finalizar la compra",);
+
         }
     };
 
