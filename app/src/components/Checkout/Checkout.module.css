@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 60vh;
+    height: 70vh;
 }
 
 .checkoutList {
@@ -25,7 +25,7 @@
 /* Estilo para el título del formulario */
 .checkoutForm h2 {
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 

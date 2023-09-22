@@ -8,7 +8,7 @@ const ItemList = ({ items, isLoading }) => {
         return <LoadingCircle />
     }
     return (
-        <div className={`container ${styles.contenedorPrincipal} vh-100`}>
+        <div className={`container ${styles.contenedorPrincipal}`}>
 
             <h1 className="text-center">Lista de productos</h1>
 

@@ -36,8 +36,8 @@ const OrderForm = ({ handleCheckout }) => {
                 <Field label="Telefono" name="phone" onChange={handleChange} />
                 <Field label="Correo Electrónico" name="email" onChange={handleChange} />
 
-                <div className="text-center"> {/* Usa la clase text-center para centrar el contenido */}
-                    <button type="submit" className="btn btn-primary">Finalizar Compra</button> {/* Usa las clases de Bootstrap para darle estilo */}
+                <div className="text-center"> 
+                    <button type="submit" className="btn btn-primary">Finalizar Compra</button>
                 </div>
             </form>
         </div>

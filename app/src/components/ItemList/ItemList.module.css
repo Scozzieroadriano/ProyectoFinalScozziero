@@ -3,6 +3,7 @@
 }
 .contenedorPrincipal{
     background-color: rgba(0,0,0,.1);
+    height: 100%;
 }
 .decorationNone{
     text-decoration: none;
