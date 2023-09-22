@@ -12,7 +12,7 @@ const Navbar = () => {
         <nav className={` ${styles.navbar} navbar navbar-expand-lg navbar-dark p-3`}>
             <div className="container-fluid">
                 <h1 className="navbar-brand">
-                    <Link className="nav-link" to="/">Tiendita</Link>
+                    <Link className="nav-link" to="/">Tecno Gamer </Link>
                 </h1>
 
                 <ul className="navbar-nav me-middle">

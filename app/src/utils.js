@@ -1,3 +1,5 @@
+import swal from "sweetalert"; 
+
 export const getCartQuantity = (cart) =>{
     return cart.reduce((acc, item) => acc + item.quantity,0)
 }
@@ -23,7 +25,7 @@ export const handleQuantityChange = (newValue, setQuantityToAdd) => {
 // Función para agregar un producto al carrito con verificación de stock
 export const handleAddToCart = (item, quantityToAdd, addItem) => {
     if (item.stock < item.quantity + quantityToAdd) {
-        alert('No hay suficiente stock disponible.');
+        swal("Lo sentimos, no hay suficiente stock para tu pedido");
     } else {
         addItem(item, quantityToAdd);
     }
