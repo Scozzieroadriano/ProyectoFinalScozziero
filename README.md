@@ -75,3 +75,6 @@ Este proyecto ha sido desarrollado utilizando las siguientes tecnologías y herr
 
 Puedes encontrar más detalles sobre cómo se han utilizado estas tecnologías en el código fuente del proyecto.
 
+
+-**NETLIFY**- Puedes acceder a la aplicación en vivo en [Netlify](https://tecnogamerstore.netlify.app/).
+
