@@ -67,7 +67,8 @@ Este proyecto ha sido desarrollado utilizando las siguientes tecnologías y herr
 
 - **JavaScript (ES6+)**: El lenguaje de programación principal utilizado para la lógica del lado del cliente.
 
-- **Firebase**: Una plataforma de desarrollo de aplicaciones web y móviles que proporciona servicios de backend, incluyendo autenticación de usuarios y base de datos en tiempo real. (solo tiene informacion de productos)
+- **Firebase**: Una plataforma de desarrollo de aplicaciones web y móviles que proporciona servicios de backend, incluyendo autenticación de usuarios y base de datos en tiempo real. (solo tiene informacion de productos).
+Las imagenes estan subidas en el storage de firebase, desde ahi se obtienen los enlaces para poder cargar sus correspondientes rutas.
 
 - **Bootstrap**: Un marco de diseño de código abierto que facilita la creación de interfaces de usuario atractivas y responsivas.
 
