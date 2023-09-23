@@ -50,7 +50,7 @@ const ItemDetail = ({ item, isLoading, addItem }) => {
                             disabled={quantityToAdd >= item.stock}
                         >
                             {quantityToAdd >= item.stock
-                                ? "No disponible"
+                                ? "Sin Stock"
                                 : "Agregar" }
                         </button>
 
